@@ -1,7 +1,5 @@
-package com.demo.controller;
+package com.demo.spring_data_jpa;
 
-import com.demo.entity.Student;
-import com.demo.repository.StudentRepository;
 import com.demo.util.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 public class StudentController {

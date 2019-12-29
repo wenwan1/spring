@@ -1,6 +1,5 @@
 package com.demo.util;
 
-import com.demo.entity.Student;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

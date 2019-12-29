@@ -1,4 +1,4 @@
-package com.demo.entity;
+package com.demo.spring_data_jpa;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Generated;
