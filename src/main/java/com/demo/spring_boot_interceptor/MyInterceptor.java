@@ -26,11 +26,10 @@ public class MyInterceptor implements HandlerInterceptor {
         /**
          * 比如实现rest
          */
-        System.out.println("开始拦截");
         String requestURI = request.getRequestURI();
         //如果url里没有student,则跳转到/error/message 路径下
         if(!requestURI.contains("student")) {
-            response.sendRedirect("/error/message");
+           // response.sendRedirect("/error/message");
             return false;
         }
         return true;
